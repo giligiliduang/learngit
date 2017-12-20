@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <script src="static/js/jquery-3.2.1.min.js"></script>
+    <script src="static/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="static/css/bootstrap.css">
+    <link rel="stylesheet" href="static/css/styles.css">
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+ <div class="container">
+     <div class="navbar-header">
+         <a href="" class="navbar-brand"></a>
+     </div>
+     <ul class="nav navbar-nav navbar-left">
+         <li><a href="index.html">首页</a></li>
+         <li><a href="">国内</a></li>
+         <li><a href="">国际</a></li>
+         <li><a href="">社会</a></li>
+     </ul>
+     <ul class="nav navbar-nav navbar-right">
+         <li><input type="text" class="navbar-form form-control" placeholder="搜索"></li>
+         <li><a href="">登录</a></li>
+         <li style="color: white;position: relative;top: 12px">|</li>
+         <li><a href="register.html">注册</a></li>
+     </ul>
+ </div>
+</nav>
+<div class="container">
+    <div class="row col-md-5 col-md-offset-4" id="login">
+        <h1>登录</h1>
+    <form action="" class="form-group" id="login_form">
+        <div class="form-group has-feedback">
+            <label class="sr-only">邮箱或手机号</label>
+            <input type="text" class="form-control col-md-5" placeholder="邮箱或手机号">
+        </div>
+        <div class="form-group">
+            <label class="sr-only">密码</label>
+            <input type="password" class="form-control col-md-5" placeholder="密码">
+        </div>
+        <div class="form-group">
+            <label class="sr-only">submit</label>
+            <input type="submit" class="btn btn-danger col-md-12" value="登录">
+        </div>
+        <div class="change">
+            <a href="">忘记密码?</a>
+            <a href="register.html" style="display: block">新用户?点击注册</a>
+        </div>
+    </form>
+    </div>
+</div>
+</body>
+</html>
